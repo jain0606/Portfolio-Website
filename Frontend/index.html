@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samiksha Jain</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/Favicon.png" />
+    <!--Bootstrap Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Custom Files-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!--Navbar section-->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/Portfolio-modified.png"
+              class="img-fluid"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#hire_me">Hire Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Navbar section exit-->
+
+    <!--Banner section-->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start">
+            <h6>WELCOME TO MY PROTFOLIO</h6>
+            <h1>I'm Samiksha Jain<br /><span>Full Stack Developer</span></h1>
+            <div class="mt-4">
+              <a class="main-btn" href="./images/Samiksha Jain Resume (2).pdf">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Banner section Exit-->
+
+    <!--About section-->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img
+              src="images/Samiksha.jpg"
+              class="img-fluid rounded-3"
+              alt="About-us"
+            />
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle">My About Details</span>
+              <h2>About Me</h2>
+              <p>
+                Backend developer with Knowledge in Java and Spring Framework
+                and variety of programming languages. Highly skilled in written
+                and verbal communication, problem-solving and critical
+                thinking., I seek to leverage my skills and experience to
+                contribute to a dynamic organization that values innovation and
+                collaboration.
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul
+                class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="true"
+                  >
+                    Main Skill
+                  </button>
+                </li>
+
+                <!-- <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-award-tab" data-bs-toggle="pill" data-bs-target="#pills-award" type="button" role="tab" aria-controls="pills-award" aria-selected="false">Awards</button>
+                </li> -->
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-experience-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-experience"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-experience"
+                    aria-selected="false"
+                  >
+                    Experience
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-education-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-education"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-education"
+                    aria-selected="false"
+                  >
+                    Education
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-skill-tab"
+                  tabindex="0"
+                >
+                  <div class="single-progress">
+                    <h6>Python</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">80%</span><br />
+                    <h6>Java programming</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 60%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">60%</span><br />
+                    <h6>HTML/CSS</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">80%</span><br />
+                    <h6>ReacJs</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">75%</span><br />
+                    <h6>NodeJs</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">75%</span><br />
+                    <h6>Data Structures and Algorithm</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 60%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">60%</span><br />
+                    <h6>Javascript</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 70%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">70%</span><br />
+                    <h6>Machine Learning</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 50%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">50%</span><br />
+
+                    <h6>Aws</h6>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 50%"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <span class="label">50%</span><br />
+                  </div>
+                </div>
+
+                <!-- <div class="tab-pane fade" id="pills-award" role="tabpanel" aria-labelledby="pills-award-tab" >
+                  <ul class="text-start ps-0">
+                    <li><a href="#">Awwwards.com
+                  <span> - Winner></spans></a> 2019 - 2020
+                    </li>
+                    <li><a href="#">CSS Design Awards
+                    <span> - Winner</span></a> 2017 - 2018
+                    </li>
+                    <i><a href="#">Design nominees
+                    <span>- site of the
+                    day</span></a> 2013- 2014
+                    </i>
+                    <1i><a href="#">Awwwards.com
+                    <span> - Winner</span></a> 2019 - 2020
+                    </1i>
+                  </ul>
+                </div> -->
+                <div
+                class="tab-pane fade"
+                id="pills-experience"
+                role="tabpanel"
+                aria-labelledby="pills-experience-tab"
+              >
+                <ul class="text-center ps-0">
+                  <li>
+                    <a href="#">
+                      Web Developer Internship<span
+                        >- Amar Transport Company</span
+                      >
+                    </a>
+                    (Internship) <br />June,2022 - August-2022 <br /><br />
+                    <p>
+                      Designed and developed a responsive, user-friendly
+                      website using HTML, CSS, Bootstrap and JavaScript
+                      Collaborated with team members to implement new features
+                      and optimize website performance
+                    </p>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Full Stack Developer Internship<span
+                        >- Webkalakaar Software Private Limited</span
+                      >
+                    </a>
+                    (Internship) <br />June,2023 - July-2023 <br /><br />
+                    <p>
+                      During the intership period, I have learned about
+                      javascript libraries such as ReactJs , Nodejs and
+                      developed a responsive and user-friendly Notes
+                      Manangement App, which can help an individual to manage
+                      his notes at a personal, secure and well managed space.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-education"
+                  role="tabpanel"
+                  aria-labelledby="pills-education-tab"
+                >
+                  <ul class="text-center ps-0">
+                    <li>
+                      <a href="#"
+                        >B.tech in Computer Science
+                        <span> - Amity University, Jaipur</span></a
+                      >
+                      2020-2024
+                    </li>
+                    <li>
+                      <a href="#"
+                        >12th Standard
+                        <span> - Vadanta International School, Jaipur</span></a
+                      >
+                      2019
+                    </li>
+                    <li>
+                      <a href="#"
+                        >10th Standard
+                        <span> - Vadanta International School, Jaipur</span></a
+                      >
+                      2017
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About section Exit-->
+
+   <!--Services section-->
+   <section id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">What I can do for you</span>
+          <h2>My Awesome Services</h2>
+          <p>
+            Explore my service offerings to see how I can contribute to your
+            digital projects and bring your ideas to life.
+            <br class="d-none d-md-block" />
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 1.png"
+                alt="services"
+                class="img-fluid mb-4"
+              />
+              <h3>Website Development</h3>
+              <p>
+                Leveraged skills in React and Node.js to build interactive and
+                scalable web applications for clients across various
+                industries. Develop custom features, implement APIs, and
+                ensure high performance and responsiveness.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 2.png"
+                alt="services"
+                class="img-fluid mb-4"
+              />
+              <h3>Data Analysis and Visualization</h3>
+              <p>
+                Use Python libraries such as Pandas, NumPy, and
+                Matplotlib/Seaborn to perform data analysis, manipulate
+                datasets, and create insightful visualizations. Help clients
+                gain valuable insights from their data and make data-driven
+                decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 3.png"
+                alt="services"
+                class="img-fluid mb-1"
+              />
+              <h3>Version Control and Collaboration</h3>
+              <p>
+                Use Git and platforms like GitHub to manage code repositories,
+                collaborate with teams, and track changes across projects.
+                Offer best practices in branching strategies, code reviews,
+                and versioning to improve team productivity and code quality.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 5.png"
+                alt="services"
+                class="img-fluid mb-4"
+              />
+              <h3>Cloud Services and Deployment</h3>
+              <p>
+                Knowledge of AWS to help clients with cloud infrastructure
+                setup, configuration, and management. Offer services such as
+                deploying applications on AWS EC2 instances, setting up
+                databases using RDS, managing storage with S3, and configuring
+                networking with VPCs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 6.png"
+                alt="services"
+                class="img-fluid mb-4"
+              />
+              <h3>Consultation and Training</h3>
+              <p>
+                Provide consulting services to guide clients on technology
+                stack selection, architecture design, and scalability planning
+                for their projects. Offer training sessions or workshops to
+                upskill teams on React, Node.js, AWS services, and best
+                development practices.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img
+                src="./images/services 4.png"
+                alt="services"
+                class="img-fluid mb-4"
+              />
+              <h3>Testing and Debugging</h3>
+              <p>
+                Write unit tests, integration tests, and end-to-end tests
+                using frameworks like Selenium to ensure code quality,
+                functionality, performance, and reliability of software
+                applications. Debug and troubleshoot issues as needed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Services section Exit-->
+
+    <!-- Portfolio Sectrion -->
+    <section id="portfolio" class="portfolio_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">My Complete project</span>
+            <h2>My Latest Project</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,<br
+                class="d-none d-md-block"
+              />
+              but the majority have suffered alteration.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="background-image: url('./images/atc\ home.png')"
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/atc\ ContactPage.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/amazon\ clone.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/weather\ Forecast.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Ecommerce-Jewellery-Website.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Hashtag-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/Christmas-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0">
+              <span
+                style="
+                  background-image: url('./images/portfolio/SEO-Landing-Page.png');
+                "
+              ></span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section exit -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contact_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
+          >
+            <span class="subtitle">Let's Say Hi</span>
+            <h2>Hire Me.</h2>
+            <div class="row call_details mb-4">
+              <label class="col-sm-3">Call us directly:</label>
+              <div class="col-sm-9 mb-3 mb-lg-2">
+                <a href="javascript:void(0)">9653969558</a>
+              </div>
+              <label class="col-sm-3">Contact Email:</label>
+              <div class="col-sm-9 mb-3 mb-lg-2">
+                <a href="mailto:example@gmail.com">jainsamiksha686@gmail.com</a>
+              </div>
+            </div>
+            <form action="/submit" method="post" id="contact-form">
+              <div class="mb-4">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name..."
+                  autocomplete="off"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="number"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Your Phone..."
+                  autocomplete="off"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Your Email..."
+                  autocomplete="off"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  cols="40"
+                  rows="4"
+                  class="form-control"
+                  id="message"
+                  placeholder="Write a Message..."
+                  autocomplete="off"
+                  name="message"
+                  required
+                />
+              </div>
+              <button type="submit" class="main-btn">Submit</button>
+            </form>
+          </div>
+          <!-- <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+            <img
+              decoding="async"
+              src="./images/contact.jpg"
+              class="img-fluid"
+            />
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- contact section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img decoding="async" src="images/Portfolio-modified.png" />
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <ul
+              class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0"
+            >
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i> </a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i> </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+              <p class="mb-0">
+                Copyright © 2022 <a href="#">Code4education</a>. All Rights
+                Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
